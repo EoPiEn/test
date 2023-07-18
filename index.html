@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="main">
+            <header class="header">
+                <div class="nav ">
+                    <div class="sidebar hide-on-tablet hide-on-mobile">
+                        <a href="#">
+                            <img class="slidebar-img" src="/assets/img/ttn1.jpg" alt="TTN">
+                        </a>
+                        
+                        <a href="#info" style="text-align:center; font-weight:bold;color: #6796bf" class="category-item__link">Nhập Thông Tin</a>
+
+                        <nav class="category">
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="#aware-1" style="text-align:center; font-weight:bold;color: #6796bf" class="category-item__link">Nội Dung Đánh Giá</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#aware"  class="category-item__link">I. Đánh giá về ý thức học tập</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#aware1"  class="category-item__link">II. Đánh giá về ý thức chấp hành nội quy</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#aware2"  class="category-item__link">III. Đánh giá về ý thức tham gia hoạt động</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#aware3"  class="category-item__link">IV. Đánh giá về ý thức công dân</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#aware4"  class="category-item__link">V. Đánh giá về ý thức và kết quả</a>
+                                </li>
+                            </ul>
+                        </nav>
+    
+                        <button class="Login-btn">Đăng nhập</button>
+    
+                        <div class="nav-bars-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+    
+                    </div>
+                </div>
+            </header>
+        </div>
+        
+            <div class="container" >
+                <div class="content">
+                                <section class="slider owl-carousel owl-theme hide-on-mobile">
+                                    <div class="slider-item slider-item-1">
+            
+                                    </div>
+                                    <div class="slider-item slider-item-2">
+            
+                                    </div>
+                                    <div class="slider-item slider-item-3">
+            
+                                    </div>
+                                    <div class="slider-item slider-item-4">
+            
+                                    </div>
+                                </section>
+        
+                    <h1 id="info">PHIẾU ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CỦA SINH VIÊN</h1>
+                                
+                    <div class="input-info " id="register-form">
+                        <div class="input-info-1 ">
+                            <div class="form-group">
+                                <label style="font-weight:bold">Họ và tên sinh viên: </label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="text" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label >MSSV: </label>
+                                <input id='name' name='fullname' rules='required|min:8' class="border form-control" type="text" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label >Ngày sinh: </label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="date" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                        </div>
+                        <div class="input-info-2">
+                            <div class="form-group">
+                                <label >Tổ:</label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="type" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label >Lớp: </label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="type" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label >Học kỳ: </label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="type" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label >Năm học: </label>
+                                <input id='name' name='fullname' rules='required' class="border form-control" type="type" placeholder="..................................................">
+                                <span class="form-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="row">
+                            <div class="table1 col l-12 " >
+                                <table id="register-form2" >
+                                    <thead>
+                                        <th style="text-align: center;width: 83px;height: 100px">TT</th>
+                                        <th id="aware-1" style="width: 925px;height: 100px">Các nội dung đánh giá</th>
+                                        <th style="width: 190px;height: 100px">Khung điểm</th>
+                                        <th style="width: 80px;height: 100px">SV tự đánh giá</th>
+                                        <th style="width: 80px;height: 100px">Lớp đánh giá</th>
+                                    </thead>
+        
+                                    <tbody>
+                                        <tr>
+                                            <td id="aware" style="text-align: center;font-weight: bold">I</td>
+                                            <td style="font-weight: bold">Đánh giá về ý thức học tập</td>
+                                            <td style="text-align: center;">Từ 0 đến 20</td>
+                                            <td>      </td>
+                                            <td>      </td>
+                                        </tr>
+                                        <tr class="form-group">
+                                            <td style="text-align: center;">1</td>
+                                            <td>Đi học đầy đủ, đúng giờ, nghiêm túc trong giờ học<br>
+                                                Thực hiện đầy đủ, nghiêm túc các bài tập, bài kiểm tra<br>
+                                                Tích cực xây dựng bài học trên lớp<br>
+                                            </td>
+                                            <td style="text-align: center;">6</td>
+                                                <td><input  type="number" min="0" max="6"></td>
+                                                <td><input  type="number" min="0" max="6"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Tích cực tham gia các câu lạc bộ học thuật,các hoạt động học thuật,hoạt động ngoại khóa</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Ý thức và thái độ tham gia các kỳ thi, cuộc thi</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">4</td>
+                                            <td>Tinh thần vượt khó, phấn đấu vươn lên trong học tập</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">5</td>
+                                            <td>Kết quả học tập:</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="5" ></td>
+                                            <td> -Có điểm TBCHT đạt 3.6 đến 4.0</td>
+                                            <td style="text-align: center;">8</td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td> -Có điểm TBCHT đạt 3.2 đến 3.6</td>
+                                            <td style="text-align: center;">6</td>
+                                            <td><input type="number" min="0" max="6"></td>
+                                            <td><input type="number" min="0" max="6"></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td> -Có điểm TBCHT đạt 2.5 đến 3.2</td>
+                                            <td style="text-align: center;">4</td>
+                                            <td><input type="number" min="0" max="4"></td>
+                                            <td><input type="number" min="0" max="4"></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td> -Có điểm TBCHT đạt 2.0 đến 2.5</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td> -Có điểm TBCHT đạt dưới 2.0</td>
+                                            <td style="text-align: center;">0</td>
+                                            <td><input type="number" min="0" max="0"></td>
+                                            <td><input type="number" min="0" max="0"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: right;font-weight: bold" colspan="2">Tổng điểm mục I</td>
+                                            <td style="text-align: center;font-weight: bold">20 điểm</td>
+                                            <td><input type="number" min="0" max="20"></td>
+                                            <td><input type="number" min="0" max="20"></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td id="aware1" style="text-align: center;font-weight: bold">II</td>
+                                            <td style="font-weight: bold">Đánh giá về ý thức chấp hành nội quy, quy chế, quy định trong Trường</td>
+                                            <td style="text-align: center;">Từ 0 đến 25</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">1</td>
+                                            <td>Không vi phạm các văn bản pháp luật và quy chế của Trường</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Tham gia đầy đủ, tích cực các buổi học tập nội quy, quy chế do nhà Trường tổ chức</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Chấp hành nghiêm túc các quy định về bảo vệ tài sản, cảnh quan môi trường</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">4</td>
+                                            <td>Chấp hành nghiêm túc nội quy nơi cư trú</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">5</td>
+                                            <td>Đóng học phí, tham gia bảo hiểm y tế đầy đủ và đúng hạn</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: right;font-weight: bold" colspan="2">Tổng điểm mục II</td>
+                                            <td style="text-align: center;font-weight: bold">25 điểm</td>
+                                            <td><input type="number" min="0" max="25"></td>
+                                            <td><input type="number" min="0" max="25"></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td id="aware2" style="text-align: center;font-weight: bold">III</td>
+                                            <td style="font-weight: bold">Đánh giá về ý thức tham gia các hoạt động chính trị, xã hội, văn hóa,<br>
+                                                văn nghệ,thể thao, phòng chống tội phạm và các tệ nạn xã hội
+                                            </td>
+                                            <td style="text-align: center;">Từ 0 đến 20</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">1</td>
+                                            <td>Tham gia nhiệt tình, đầy đủ các hoạt động văn hóa, văn nghệ, thể thao của Lớp, Khoa, Đoàn trường và Nhà trường tổ chức
+                                            </td>
+                                            <td style="text-align: center;">8</td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Tham gia tích cực các hoạt động công ích,tình nguyện, các hoạt động xã hội(hiến máu nhân đạo, tiếp sức mùa thi, mùa hè xanh,.....) </td>
+                                            <td style="text-align: center;">7</td>
+                                            <td><input type="number" min="0" max="7"></td>
+                                            <td><input type="number" min="0" max="7"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Tham gia tuyên truyền, phòng chống tội phạm và các tệ nạn xã hội</td>
+                                            <td style="text-align: center;">5</td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                            <td><input type="number" min="0" max="5"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: right;font-weight: bold"colspan="2">Tổng điểm mục III</td>
+                                            <td style="text-align: center;font-weight: bold">20 điểm</td>
+                                            <td><input type="number" min="0" max="20"></td>
+                                            <td><input type="number" min="0" max="20"></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td id="aware3" style="text-align: center;font-weight: bold">IV</td>
+                                            <td style="font-weight: bold">Đánh giá ý thức công dân trong quan hệ cộng đồng</td>
+                                            <td style="text-align: center;">Từ 0 đến 25</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">1</td>
+                                            <td>Chấp hành và tham gia tuyên truyền các chủ trương của Đảng, chính sách,pháp luật<br>
+                                                của Nhà nước trong cộng đồng</td>
+                                            <td style="text-align: center;">10</td>
+                                            <td><input type="number" min="0" max="10"></td>
+                                            <td><input type="number" min="0" max="10"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Tích cực tham gia các hoạt động xã hội và đạt thành tích được ghi nhận, biểu dương, khen thưởng</td>
+                                            <td style="text-align: center;">8</td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                            <td><input type="number" min="0" max="8"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Có tinh thần chia sẻ, giúp đỡ người thân, người khó khăn, hoạn nạn</td>
+                                            <td style="text-align: center;">7</td>
+                                            <td><input type="number" min="0" max="7"></td>
+                                            <td><input type="number" min="0" max="7"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: right;font-weight: bold" colspan="2">Tổng điểm mục IV</td>
+                                            <td style="text-align: center;font-weight: bold">25 điểm</td>
+                                            <td><input type="number" min="0" max="25"></td>
+                                            <td><input type="number" min="0" max="25"></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td id="aware4" style="text-align: center;font-weight: bold">V</td>
+                                            <td style="font-weight: bold">Đánh giá về ý thức và kết quả khi tham gia công tác cán bộ lớp, các đoàn thể, tổ chức trong Trường hoặc sinh viên đạt được thành tích đặc biệt trong học tập, rèn luyện</td>
+                                            <td style="text-align: center;">Từ 0 đến 10</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">1</td>
+                                            <td>Ý thức, tinh thần, uy tín và hiệu quả công việc của sinh viên được phân công nhiệm vụ quản lý lớp, các tổ chức Đảng, Đoàn TN, Hội SV và các tổ chức khác trong Trường</td>
+                                            <td style="text-align: center;">3</td>
+                                            <td><input type="number" min="0" max="3"></td>
+                                            <td><input type="number" min="0" max="3"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Kỹ năng tổ chức, quản lý lớp, quản lý các tổ chức Đảng, Đoàn Thanh Niên, Hội sinh viên và các tổ chức khác trong Trường</td>
+                                            <td style="text-align: center;">3</td>
+                                            <td><input type="number" min="0" max="3"></td>
+                                            <td><input type="number" min="0" max="3"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Sinh viên hỗ trợ và tham gia tích cực các hoạt động chung của lớp, tập thể Khoa và Trường</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">4</td>
+                                            <td>Sinh viên đạt được các thành tích đặc biệt trong học tập, rèn luyện</td>
+                                            <td style="text-align: center;">2</td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                            <td><input type="number" min="0" max="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="text-align: right;font-weight: bold">Tổng điểm mục V</td>
+                                            <td style="text-align: center;font-weight: bold">10 điểm</td>
+                                            <td><input type="number" min="0" max="10"></td>
+                                            <td><input type="number" min="0" max="10"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td  style="text-align: right;font-weight: bold">Tổng cộng</td>
+                                            <td></td>
+                                            <td><input type="number" min="0" max="100"></td>
+                                            <td><input type="number" min="0" max="100"></td>
+                                        </tr>
+        
+                                    </tbody>
+                                </table>
+                                <button class="save-btn">Lưu Kết Quả</button>
+                            </div>
+        
+                            
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>
+                    Copyright © 2022 Trường Đại học Tây Nguyên.<br>
+                    Địa chỉ: 567 Lê Duẩn TP. Buôn Ma Thuột - Đăk Lăk. Tư vấn tuyển sinh: 0965.164.445 . Điện thoại: (0262)3825185 . Fax: (0262)3825184 . Email: dhtn@ttn.edu.vn<br>
+                    Designed by Lương Phúc Nguyên.
+                </p>
+            </footer>
+            
+    </div>
+    <script>
+        Validator('#register-form');
+        Validator('#register-form2');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
+</body>
+</html>
